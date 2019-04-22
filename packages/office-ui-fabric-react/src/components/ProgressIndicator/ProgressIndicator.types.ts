@@ -55,6 +55,11 @@ export interface IProgressIndicatorProps extends React.ClassAttributes<ProgressI
   ariaValueText?: string;
 
   /**
+   * Text indicating region of a page, used by screen readers for reading the vlaue of the progress.
+   */
+  ariaDescribedBy?: string;
+
+  /**
    * Deprecated at v0.43.0, to be removed at \>= v0.53.0. Use `label` instead.
    * @deprecated Use `label` instead.
    */

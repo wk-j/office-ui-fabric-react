@@ -59,7 +59,7 @@ export class ProgressIndicatorBase extends React.Component<IProgressIndicatorPro
   }
 
   private _onRenderProgress = (props: IProgressIndicatorProps): JSX.Element => {
-    const { ariaValueText, barHeight, className, styles, theme } = this.props;
+    const { ariaDescribedBy, ariaValueText, barHeight, className, styles, theme } = this.props;
 
     const percentComplete =
       typeof this.props.percentComplete === 'number' ? Math.min(100, Math.max(0, this.props.percentComplete * 100)) : undefined;
@@ -79,6 +79,7 @@ export class ProgressIndicatorBase extends React.Component<IProgressIndicatorPro
     const ariaValueMin = percentComplete !== undefined ? 0 : undefined;
     const ariaValueMax = percentComplete !== undefined ? 100 : undefined;
     const ariaValueNow = percentComplete !== undefined ? Math.floor(percentComplete!) : undefined;
+    const ariaBusy = ariaValueNow === undefined ? undefined : ariaValueNow === 100 ? false : true;
 
     return (
       <div className={classNames.itemProgress}>
@@ -91,6 +92,8 @@ export class ProgressIndicatorBase extends React.Component<IProgressIndicatorPro
           aria-valuemax={ariaValueMax}
           aria-valuenow={ariaValueNow}
           aria-valuetext={ariaValueText}
+          aria-describedby={ariaDescribedBy}
+          aria-busy={ariaBusy}
         />
       </div>
     );
