@@ -5873,6 +5873,7 @@ export type IPositioningContainerTypes = IPositioningContainerProps;
 
 // @public (undocumented)
 export interface IProgressIndicatorProps extends React.ClassAttributes<ProgressIndicatorBase> {
+    ariaDescribedBy?: string;
     ariaValueText?: string;
     barHeight?: number;
     className?: string;
