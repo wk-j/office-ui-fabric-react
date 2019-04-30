@@ -76,7 +76,7 @@ dependencies:
   '@types/sinon': 2.2.2
   '@types/storybook__react': 3.0.5
   '@types/webpack': 4.4.0
-  '@types/webpack-env': 1.13.0
+  '@types/webpack-env': 1.13.9
   async: 2.6.1
   autoprefixer: 7.2.6
   awesome-typescript-loader: 3.5.0
@@ -90,7 +90,6 @@ dependencies:
   chalk: 2.4.1
   codecov: 3.1.0
   color-check: 0.0.2
-  color-functions: 1.1.0
   command-line-args: 4.0.7
   compression: 1.7.3
   concurrently: 4.1.0
@@ -109,7 +108,6 @@ dependencies:
   es6-map: 0.1.5
   es6-promise: 4.2.5
   es6-weak-map: 2.0.2
-  express: 4.16.4
   file-loader: 0.11.2
   find-free-port: 2.0.0
   fork-ts-checker-webpack-plugin: 0.4.15
@@ -136,7 +134,6 @@ dependencies:
   mustache: 2.3.2
   ngrok: 3.1.0
   node-sass: 4.10.0
-  office-ui-fabric-core: 9.6.1
   open: 0.0.5
   postcss: 6.0.23
   postcss-loader: 2.1.6
@@ -1089,6 +1086,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-MEQ4FkfhHulzxa8uklMjkw9pHYA=
+  /@types/webpack-env/1.13.9:
+    dev: false
+    resolution:
+      integrity: sha512-p8zp5xqkly3g4cCmo2mKOHI9+Z/kObmDj0BmjbDDJQlgDTiEGTbm17MEwTAusV6XceCy+bNw9q/ZHXHyKo3zkg==
   /@types/webpack/4.4.0:
     dependencies:
       '@types/node': 8.10.38
@@ -10112,6 +10113,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-o2fRSjmGC8lTwFr2bKp2h6+fFqQ+ggtDIk/St3JWF/UYud70wnos081AkGeIRdKt0EpnxlHsDJZ0ab/3+Tndrw==
+  /office-ui-fabric-core/9.6.1-fluent2:
+    dev: false
+    resolution:
+      integrity: sha512-gcBs5HHr7tjkvk/+Ls10ttb3jEllRn7SvJitX/kx/gQq8BiFMSMKr1w+oNqXlh4EgkBHWUlJVPrYUu1KW/jVaQ==
   /office-ui-fabric-react/6.165.1:
     dependencies:
       '@microsoft/load-themed-styles': 1.8.83
@@ -15413,6 +15418,7 @@ packages:
       es6-weak-map: 2.0.2
       highlight.js: 9.13.1
       markdown-to-jsx: /markdown-to-jsx/6.6.1/react@16.6.3
+      office-ui-fabric-core: 9.6.1-fluent2
       react: 16.6.3
       react-custom-scrollbars: /react-custom-scrollbars/4.2.1/react-dom@16.6.3+react@16.6.3
       react-dom: /react-dom/16.6.3/react@16.6.3
@@ -15422,7 +15428,7 @@ packages:
     dev: false
     name: '@rush-temp/example-app-base'
     resolution:
-      integrity: sha512-QByuJonPnvqMS9rnvaF21dyqXETnP5zsAnsmNsPICKzzVAsfHMosEb/My7xAUl4MIhcLoioIBYB5R4De6nPvow==
+      integrity: sha512-kOH6yELwKDRiOEtSjfD5CSCBbzsHFmfnPWKfzq3rssrmGt/jb2DOR16MaQp850plx36Ar8XIFKxF+u7dOM7fZg==
       tarball: 'file:projects/example-app-base.tgz'
     version: 0.0.0
   'file:projects/experiments.tgz':
@@ -15503,12 +15509,14 @@ packages:
       '@types/react-dom': 16.0.5
       '@types/resemblejs': 1.3.28
       '@types/webpack-env': 1.13.0
+      color-check: 0.0.2
       color-functions: 1.1.0
       es6-promise: 4.2.5
       es6-weak-map: 2.0.2
+      express: 4.16.4
       highlight.js: 9.13.1
       json-loader: 0.5.7
-      office-ui-fabric-core: 9.6.1
+      office-ui-fabric-core: 9.6.1-fluent2
       react: 16.6.3
       react-dom: /react-dom/16.6.3/react@16.6.3
       react-highlight: 0.10.0
@@ -15518,7 +15526,7 @@ packages:
     dev: false
     name: '@rush-temp/fabric-website'
     resolution:
-      integrity: sha512-BfTnnJiGoEPT1Ty/5BS9rpaRmivpwTClsIo2ErEEKsxNm5VPeqnZZavFM/6jjyt0IEcCMG3ghDAryIctsoeWtA==
+      integrity: sha512-yV6n3mQU04USAuUo0dPWFoVO5QwQzyi5atUEge2YqM3PNEqVTVLMTiX71QuF+K96y9WbyH/rSY+WU2oHsA+8tA==
       tarball: 'file:projects/fabric-website.tgz'
     version: 0.0.0
   'file:projects/file-type-icons.tgz':
@@ -16058,7 +16066,7 @@ specifiers:
   '@types/sinon': 2.2.2
   '@types/storybook__react': 3.0.5
   '@types/webpack': 4.4.0
-  '@types/webpack-env': 1.13.0
+  '@types/webpack-env': 1.13.9
   async: ^2.6.1
   autoprefixer: ^7.1.5
   awesome-typescript-loader: ^3.2.3
@@ -16072,7 +16080,6 @@ specifiers:
   chalk: ^2.1.0
   codecov: ^3.1.0
   color-check: 0.0.2
-  color-functions: 1.1.0
   command-line-args: ^4.0.7
   compression: ^1.7.2
   concurrently: ^4.1.0
@@ -16091,7 +16098,6 @@ specifiers:
   es6-map: ^0.1.5
   es6-promise: ^4.1.0
   es6-weak-map: ^2.0.2
-  express: ^4.16.3
   file-loader: ^0.11.1
   find-free-port: ~2.0.0
   fork-ts-checker-webpack-plugin: ^0.4.1
@@ -16118,7 +16124,6 @@ specifiers:
   mustache: ^2.3.0
   ngrok: ^3.0.1
   node-sass: ^4.5.3
-  office-ui-fabric-core: ^9.0.0
   open: ^0.0.5
   postcss: ^6.0.9
   postcss-loader: ^2.0.9
