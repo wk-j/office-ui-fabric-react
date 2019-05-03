@@ -1,6 +1,13 @@
 # Change Log - @uifabric/date-time
 
-This log was last generated on Tue, 30 Apr 2019 12:31:36 GMT and should not be manually modified.
+This log was last generated on Fri, 03 May 2019 22:23:11 GMT and should not be manually modified.
+
+## 6.0.4
+Fri, 03 May 2019 22:23:11 GMT
+
+### Patches
+
+- CalendarDay: adjust styles to center align the selected days and months.
 
 ## 6.0.3
 Tue, 30 Apr 2019 12:31:36 GMT

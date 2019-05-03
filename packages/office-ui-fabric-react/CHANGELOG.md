@@ -1,6 +1,16 @@
 # Change Log - office-ui-fabric-react
 
-This log was last generated on Thu, 02 May 2019 12:36:35 GMT and should not be manually modified.
+This log was last generated on Fri, 03 May 2019 22:23:11 GMT and should not be manually modified.
+
+## 6.176.1
+Fri, 03 May 2019 22:23:11 GMT
+
+### Patches
+
+- Properly propagate Esc in DatePicker
+- Add min panel width for small screen sizes
+- Documentation: adds more `docCategory` tags to API items.
+- Doc updates for new website
 
 ## 6.176.0
 Thu, 02 May 2019 12:36:35 GMT

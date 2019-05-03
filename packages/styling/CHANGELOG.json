@@ -2,6 +2,20 @@
   "name": "@uifabric/styling",
   "entries": [
     {
+      "version": "6.47.2",
+      "tag": "@uifabric/styling_v6.47.2",
+      "date": "Fri, 03 May 2019 22:23:11 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Doc updates for new website",
+            "author": "Elizabeth Craig <elcraig@microsoft.com>",
+            "commit": "12e6c0b16ca155792d4bfa8c968119d5efd3cd2b"
+          }
+        ]
+      }
+    },
+    {
       "version": "6.47.1",
       "tag": "@uifabric/styling_v6.47.1",
       "date": "Thu, 02 May 2019 12:36:35 GMT",

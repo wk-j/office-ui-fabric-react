@@ -1,6 +1,17 @@
 # Change Log - @uifabric/fabric-website
 
-This log was last generated on Thu, 02 May 2019 12:36:35 GMT and should not be manually modified.
+This log was last generated on Fri, 03 May 2019 22:23:11 GMT and should not be manually modified.
+
+## 6.16.0
+Fri, 03 May 2019 22:23:11 GMT
+
+### Minor changes
+
+- Switch to new website
+
+### Patches
+
+- Getting started update with CRA, just and Gatsby.js
 
 ## 6.15.0
 Thu, 02 May 2019 12:36:35 GMT
