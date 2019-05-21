@@ -117,7 +117,7 @@ jobs:
 
       # Install built package tarball in sample app
       - script: |
-          npm install office-ui-fabric-react@6.181.1
+          npm install $(Build.StagingDirectory)/compatMapDrop/$(PackageName).tgz
         displayName: Install $(PackageName) in TypeScript $(TypeScriptVersion) test app
         workingDirectory: $(Build.StagingDirectory)/__tests__/tests/$(TypeScriptVersion)
 
@@ -172,7 +172,7 @@ jobs:
           $compatMapArray = Get-Content $env:BUILD_STAGINGDIRECTORY/compatMapDrop/compatMap.txt;
           foreach($line in $compatMapArray) {
             if($i -match 0) {
-              $releaseVersion = "6.181.1";
+              $releaseVersion = $line;
             } else {
               if($i -match 1) {
                 $compatibleTsVersions += $line;
